@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+{% extends "app1/base.html" %}
+{% load static %}
+<link rel="stylesheet" href="{% static "css/style.css" %}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Pacifico&family=Permanent+Marker&display=swap" rel="stylesheet">
+  {% block body_block %}
+
+    <img src="{%static "img/home1.png" %}" class="img-fluid" alt="...">
+    <p id="p1"> PLEASE JOIN US FOR A</p>
+    <h1 id='h1'>HOUSEWARMING</h1>
+    <h1 id='h1'>PARTY</h1>
+
+    <h4>AT</h4>
+    <p id="p1">
+      <img id="loc" src="{%static "img/loc.jpg" %}" class="img-fluid" width="20" height="20" alt="">
+      <a href="https://maps.app.goo.gl/dtYR4V4QsA4iALSm8">Flat 305, Disha Heights, Tapovan Rd, Ahmednagar</a>
+    </p>
+    <h4>ON</h4>
+    <p id="p1">29th January 2022</p>
+    <p id="p1">From 11AM to 3PM</p>
+    <p id="p1">
+      <img id="wapp" src="{%static "img/wapp.png" %}" class="img-fluid" width="20" height="20" alt="">
+      <a href="https://wa.me/919665399646">+91 9665399646</a>
+    </p>
+    <p id="p1"></p>
+    <p id="p1">Note: No Gifts Please!</p>
+
+
+
+  {% endblock %}
